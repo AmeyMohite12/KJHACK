@@ -10,7 +10,7 @@ class Complete extends Component {
           <div id="main">
             <div className="inner">
               <header id="header">
-                <a href="index.html" className="logo">
+                <a href="Home" className="logo">
                   <h2>
                     {" "}
                     <strong>Farmers</strong> Portal

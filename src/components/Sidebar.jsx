@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 class Sidebar extends Component {
   state = {};
   render() {
@@ -17,13 +18,13 @@ class Sidebar extends Component {
             </header>
             <ul>
               <li>
-                <a href="index.html">Homepage</a>
+                <Link to="/">Homepage</Link>
               </li>
               <li>
-                <a href="generic.html">Add new Proposal</a>
+                <Link to="/contract">Add new Proposal</Link>
               </li>
               <li>
-                <a href="elements.html">Track Contracts</a>
+                <Link to="/track">Track Contracts</Link>
               </li>
             </ul>
           </nav>

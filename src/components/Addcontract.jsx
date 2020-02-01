@@ -31,22 +31,22 @@ class Addcontract extends Component {
                   <option value="2">Sell</option>
                 </select>
               </div>
-              <div className="col-6 col-12-xsmall">
+              <div>
                 <input
                   type="number"
-                  name="demo-name"
-                  id="demo-name"
-                  min="1"
+                  name="quantity"
+                  id="quantity"
                   placeholder="Quantity in kg"
-                  value={this.state.Quantity}
+                  // value={this.state.Quantity}
+                  min="1"
                   onChange={this.handleQuantityChange}
                 />
               </div>
               <div>
                 <input
                   type="number"
-                  name="demo-name"
-                  id="demo-name"
+                  name="rate"
+                  id="rate"
                   placeholder="Rate in kg "
                   value={this.state.Rate}
                   min="1"
